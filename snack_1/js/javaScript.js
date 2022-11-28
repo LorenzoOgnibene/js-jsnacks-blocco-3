@@ -2,8 +2,8 @@
 //fino a quando l'utente non inserisce il valore corretto
 
 
-let userNumber = parseInt(prompt('Inserisci un numero tra 1 e 10'));
+let userNumber;
 
-while(userNumber > 10 ||userNumber < 1){
+do{
     userNumber = parseInt(prompt('Inserisci un numero tra 1 e 10'));
-}
+}while(userNumber > 10 ||userNumber < 1);
