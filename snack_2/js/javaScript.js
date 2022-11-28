@@ -12,6 +12,6 @@ while(sum < 50){
     numbers.push(userNumber);
     sum+= userNumber;
 }
-
+     
 console.log(numbers);
 console.log(sum);
